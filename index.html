@@ -1,232 +1,100 @@
 <!DOCTYPE html>
 <html lang="eng">
   <head>
-    <title>Design for life</title>
+    <title>Design for life</title> 
     <meta name="description" content="Website about interior and design"> 
     <meta name="Keywords" content="interior, design, furniture, room, inspiration"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+    integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
   </head>
 
-  <body>
+  <body style=" margin:0">
+
       <header>
-          <nav align="center">
-            <button style= "background-color:white; width: 7%; padding: 10px 7px 20px; border-width: 0; font-family: Tahoma; font-size: 15px;">
-              <a href="#"  style = "color: black; text-decoration: none;">HOME</a></button>
-            <button style= "background-color:white; width: 7%; padding: 10px 7px 20px; border-width: 0; font-family: Tahoma; font-size: 15px;">
-              <a href="#"  style = "color: black; text-decoration: none;">BLOG</a></button>
-            <button style= "background-color:white; width: 7%; padding: 10px 7px 20px; border-width: 0; font-family: Tahoma; font-size: 15px;">
-              <a href="#"  style = "color: black; text-decoration: none;">PODCAST</a></button>
-            <button style= "background-color:white; width: 7%; padding: 10px 7px 20px; border-width: 0; font-family: Tahoma; font-size: 15px;">
-              <a href="#"  style = "color: black; text-decoration: none;">ABOUT</a></button>
+          <nav align="center" > 
+              <a href="#" class = "nav__item">home</a>
+              <a href="#" class = "nav__item">blog</a>
+              <a href="#" class = "nav__item">podcast</a>
+              <a href="#" class = "nav__item">about</a>
           </nav>
       </header>
 
-      <div>
-          <img src = "1.png" width = "100%">
-      </div>
+      <section> 
+          <img src = "C:\Users\Asus\Design-for-life\images\main.png" width = "100%" >
+      </section
 
       <main>
-        <section style = "width: 60%; padding: 10px; margin: 10px; margin-left: 20%; border-style:solid ;border:1;border-color:darkgrey">
-          <img src = "sec1.jpg" width = "50%">
-          <div style="float: right; width: 50%;">
-            <header>
-              <table width="100%" cellspacing="0" cellpadding="0">
-                <tr> 
-                 <td width = "20%" ><img src="author1.jpg" width = "100%";></td>
-                 <td><font face="Tahoma" size ="2">
-                   <p><a href="#"  style = "color: black; text-decoration: none;"> Fox Mulder &#9733</a> </p> 
-                   <p> 1 час назад &#183 1 мин чтения</p>
-                  </font></td>
-                </tr>
-               </table>
-            </header>
+        
+        <section class = "section" style = "width: 60%; margin-left: 20%; border-style:solid ;border-width:1px;border-color:darkgrey">
 
-            <main>
-              <h3 style="font-family:Verdana; color: darkslategray; margin-left: 10px;">
-              <a href="#" style ="color:darkslategray; text-decoration:none;">LUXURY ROOM WITH FIREPLACE</a></h3>
-              <p style = "margin-left: 10px;"><font face ="Lucida Console" size = "2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada sem sit amet ex luctus, sit amet efficitur metus luctus.
-                 Sed gravida mi at lorem ornare accumsan.</font></p>
+          <img src = "C:\Users\Asus\Design-for-life\images\sec1.jpg" class = "section__pic"  width = "50%">
+
+          <aside class = "section__text" style="float: right; width: 50%;">
+
+            <div class = "section__text_info">
+              <img src="C:\Users\Asus\Design-for-life\images\author1.jpg" width = "20%";>
+              <a href="#"  style = "color: black; text-decoration: none;"> Fox Mulder &#9733</a>
+              1 час назад &#183 1 мин чтения
+            </div>
+
+            <div>
+              <h3 class = "section__text_name"><a href="#">luxury room with fireplace</a></h3>
+              <p class = "section__text_preview">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada sem sit amet ex luctus, sit amet efficitur metus luctus.
+                Sed gravida mi at lorem ornare accumsan.</p>
+
               <hr width="95%">
-            </main>
+            </div>
 
-            <footer>
-              <p style = "margin-left: 10px;""><font face="Tahoma"; size ="2">Просмотров: 2 &nbsp &nbsp &nbsp
-                  <a href = "#" style = "color: black; text-decoration: none;">Комментировать</a></font> 
-                   <button style= "background-color:white; border-width: 0; width:10%; margin-left: 30%;" ><img src="button.png"style="vertical-align: middle; width:100% "> </button></p>
+            <div class = "section__text_stat">
+              <p>Просмотров: 2 &nbsp &nbsp &nbsp
+              <a href = "#" class = "section__text_com">Комментировать</a>
+              <button style= "background-color:white; border-width: 0; width:10%; margin-left: 30%;" class = "section__text_like-button" >
+              <img src="C:\Users\Asus\Design-for-life\images\button.png"style="vertical-align: middle; width:100% "> </button></p>
+            </div>
 
-            </footer>
-          </div>
-        </section>
-       
-        <section style = "width: 60%; padding: 10px; margin: 10px; margin-left: 20%; border-style:solid ;border:1;border-color:darkgrey">
-          <img src = "sec2.jpg" width = "50%">
-          <div style="float: right; width: 50%;">
-            <header>
-              <table width="100%" cellspacing="0" cellpadding="0">
-                <tr> 
-                 <td width = "20%" ><img src="author2.jpg" width = "100%";></td>
-                 <td><font face="Tahoma" size ="2">
-                   <p><a href="#"  style = "color: black; text-decoration: none;"> Dana Scully &#9829 </a> </p> 
-                   <p> 1 час назад &#183 2 мин чтения</p>
-                  </font></td>
-                </tr>
-               </table>
-            </header>
-            <main>
-              <h3 style="font-family:Verdana; color: darkslategray; margin-left: 10px;">
-              <a href="#" style ="color:darkslategray; text-decoration:none;">COZY BRIGHT KITCHEN</a></h3>
-
-              <p style = "margin-left: 10px;"><font face ="Lucida Console" size = "2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada sem sit amet ex luctus, sit amet efficitur metus luctus.
-                 Sed gravida mi at lorem ornare accumsan.</font></p>
-
-              <hr width="95%">   
-
-            </main>
-
-            <footer>
-              <p style = "margin-left: 10px;""><font face="Tahoma"; size ="2">Просмотров: 0 &nbsp &nbsp &nbsp
-                  <a href = "#" style = "color: black; text-decoration: none;">Комментировать</a></font> 
-                   <button style= "background-color:white; border-width: 0; width:10%; margin-left: 30%;" ><img src="button.png"style="vertical-align: middle; width:100% "> </button></p>
-
-            </footer>
-          </div>
-        </section>
-
-        <section style = "width: 60%; padding: 10px; margin: 10px; margin-left: 20%; border-style:solid ;border:1;border-color:darkgrey">
-          <img src = "sec3.jpg" width = "50%">
-          <div style="float: right; width: 50%;">
-            <header>
-              <table width="100%" cellspacing="0" cellpadding="0">
-                <tr> 
-                 <td width = "20%" ><img src="author3.jpg" width = "100%";></td>
-                 <td><font face="Tahoma" size ="2">
-                   <p> <a href="#" style = "color: black; text-decoration: none;">John Doggett &#9672</a> </p> 
-                   <p> 1 час назад &#183 1 мин чтения</p>
-                  </font></td>
-                </tr>
-               </table>
-            </header>
-
-            <main>
-              <h3 style="font-family:Verdana; color: darkslategray; margin-left: 10px;">
-              <a href="#" style ="color:darkslategray; text-decoration:none;">SPACIOUS LIVING ROOM</a></h3>
-
-              <p style = "margin-left: 10px;"><font face ="Lucida Console" size = "2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada sem sit amet ex luctus, sit amet efficitur metus luctus.
-                 Sed gravida mi at lorem ornare accumsan.</font></p>
-
-              <hr width="95%">   
-
-            </main>
-
-            <footer>
-              <p style = "margin-left: 10px;""><font face="Tahoma"; size ="2">Просмотров: 1 &nbsp &nbsp &nbsp
-                  <a href = "#" style = "color: black; text-decoration: none;">Комментировать</a></font> 
-                   <button style= "background-color:white; border-width: 0; width:10%; margin-left: 30%;" ><img src="button.png"style="vertical-align: middle; width:100% "> </button></p>
-
-            </footer>
-          
-          </div>
-        </section>
-
-        <section style = "width: 60%; padding: 10px; margin: 10px; margin-left: 20%; border-style:solid ;border:1;border-color:darkgrey">
-          <img src = "sec4.jpg" width = "50%">
-          <div style="float: right; width: 50%;">
-            <header>
-              <table width="100%" cellspacing="0" cellpadding="0">
-                <tr> 
-                 <td width = "20%" ><img src="author4.jpg" width = "100%";></td>
-                 <td><font face="Tahoma" size ="2">
-                   <p><a href="#" style = "color: black; text-decoration: none;">Walter Skinner &#9788</a> </p> 
-                   <p> 1 час назад &#183 1 мин чтения</p>
-                  </font></td>
-                </tr>
-               </table>
-            </header>
-
-            <main>
-              <h3 style="font-family:Verdana; color: darkslategray; margin-left: 10px;">
-              <a href="#" style ="color:darkslategray; text-decoration:none;">CREATIVE ROOM STUDIO</a></h3>
-
-              <p style = "margin-left: 10px;"><font face ="Lucida Console" size = "2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada sem sit amet ex luctus, sit amet efficitur metus luctus.
-                 Sed gravida mi at lorem ornare accumsan.</font></p>
-
-                 <hr width="95%">   
-            </main>
-
-            <footer>
-              <p style = "margin-left: 10px;""><font face="Tahoma"; size ="2">Просмотров: 3 &nbsp &nbsp &nbsp
-                  <a href = "#" style = "color: black; text-decoration: none;">Комментировать</a></font> 
-                   <button style= "background-color:white; border-width: 0; width:10%; margin-left: 30%;" ><img src="button.png"style="vertical-align: middle; width:100% "> </button></p>
-
-            </footer>
-          </div>
+          </aside>
         </section>
 
         <button style = "background-color: black; border-width: 0; width:28%; height: 50px; margin-left: 36%;
-         color: white; margin-top: 40px; margin-bottom: 20px; ">
-         <a href="#"  style = "color: white; text-decoration: none;">View All Posts</a> View All Posts</button>
+         color: white; margin-top: 40px; margin-bottom: 20px; " class = "all-posts-button">View All Posts</button>
 
-        <div style = "margin-left: 20%; width : 60%; margin-bottom: 10%";>
-          <p><font face = "Tahoma"; font-size = "15px";>GALERY</font> </p>
-          <table  border = "0" cellpadding = "5px">
-            <tr width = "60%">
-              <td width="25%"><a href="#"><img src="gallery1.jpg"  width="100%" ></a></td>
-              <td width="25%"><a href="#"><img src="gallery2.jpg" width="100%" ></a></td>
-              <td width="25%"><a href="#"><img src="gallery3.jpg" width="100%" ></a></td>
-              <td width="25%"><a href="#"><img src="gallery4.jpg" width="100%" ></a></td>
-            </tr>
-          </table>
-        </div>
+        <section class= "gallery" style = "margin-left: 20%; width : 60%; margin-bottom: 10%";>
+          <p>GALERY</p>
+
+           <a href="#"><img src="C:\Users\Asus\Design-for-life\images\gallery1.jpg" class = "gallery_pic" width="20%" ></a>
+           <a href="#"><img src="C:\Users\Asus\Design-for-life\images\gallery2.jpg" class = "gallery_pic" width="20%" ></a>
+           <a href="#"><img src="C:\Users\Asus\Design-for-life\images\gallery3.jpg" class = "gallery_pic" width="20%"></a>
+           <a href="#"><img src="C:\Users\Asus\Design-for-life\images\gallery4.jpg" class = "gallery_pic" width="20%"></a>
+        
+        </section>
       </main>
 
-      <footer>
-        <div style = "background-color:black ; height: 250px; padding: 25px;">
-         <p align= "center"><font face = "Tahoma"; font-size = "20px" ><a href="#" style ="color:white; text-decoration:none;">
-          D &nbsp E &nbsp S &nbsp I &nbsp G &nbsp N &nbsp &nbsp  F &nbsp O &nbsp R &nbsp &nbsp  L &nbsp I &nbsp F &nbsp E</a></font></p>
-          <table  border = "0" cellpadding = "5px" width = "100%" height = "70%">
-            <tr> 
-              <td width="20%"></td>
-              <td width="20%">
-                <table width = "100%">
-                  <tr>
-                    <td width="25%">
-                      <button style= "background-color:black; border-width: 0;" >
-                        <a href="#"><img src="icon1.jpg"style="vertical-align: middle; width:100% "></a> </button>
-                    </td>
-                    <td width="25%">
-                      <button style= "background-color:black; border-width: 0;" >
-                        <a href="#"><img src="icon2.jpg"style="vertical-align: middle; width:100% "></a> </button>
-                    </td>
-                    <td width="25%">
-                      <button style= "background-color:black; border-width: 0;" >
-                        <a href="#"><img src="icon3.jpg"style="vertical-align: middle; width:100% "></a> </button>
-                    </td>
-                    <td width="25%"> 
-                      <button style= "background-color:black; border-width: 0;" >
-                        <a href="#"><img src="icon4.jpg"style="vertical-align: middle; width:100% "></a> </button>
-                    </td>
-                  </tr>
-                </table>
-                
-              </td>
-              <td width="20%">
-                <form>
-                  <input style="background-color: black; color:white; border-color: white; margin: 5%; padding: 5%; height: 10px; " 
-                  type="email" placeholder="Enter your email here*">
-                </form>
-                <button style= "background-color:black; color: white; border-width: 1; border-color: white; margin: 5%; padding: 5%; width:80%;">
-                  Subscribe Now
-                </button>
-              </td>
-              <td width="20%" align = "center">
-                <font face="Tahoma" size ="2" color = "white">
-               <p>&#169 2020 by Design for life</p>
-               <p>Proudly created by vilo4kaaa</p>
-              </font>
-              </td>
-              <td width="20%"></td>
-            </tr>
-          </table>
-        </div>
+      <footer style = "background-color:darkgrey ; height: 200px";>
+        <p align= "center" ><a href="#">design for life</a></p>
+
+        <section class = "footer__contacts" width = "33%">
+          <a href="#" ><i class="fab fa-facebook-f"></i></a>
+          <a href="#" ><i class="fab fa-twitter"></i></a>
+          <a href="#" ><i class="fab fa-pinterest-p"></i></a>
+          <a href="#" ><i class="fab fa-instagram"></i></a>
+        </section>
+
+        <section class = "footer__subs" width = "33%" style = "margin-left: 33%;">
+          <form>
+            <input class = "footer__subs_form" style="background-color: black; color:white; height: 10px; " 
+            type="email" placeholder="Enter your email here*">
+          </form>
+          <button class = "footer__subs_button" style= "background-color:black; color: white;">
+            Subscribe Now
+          </button>
+        </section>
+
+        <section class = "footer__copyright" width = "33%" style = "margin-left: 66%;">
+          <p>&#169 2020 by Design for life</p>
+          <p>Proudly created by vilo4kaaa</p>
+        </section>
 
       </footer>
 
