@@ -1,129 +1,110 @@
-body
-{
+body{
     margin:0;
     font-family: Raleway;
 }
 
-a
-{
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+a{
     color: black;
     text-decoration: none;
 }
 
-.header-nav
-{
-    height: 60px;
-    width:100%;
+.header-nav{
     background-color: white;
     position: fixed;
     display: inline-flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
+    height: 60px;
+    width:100%;
+    
 }
 
-.header-nav__item
-{
-    padding: 24px;
+.header-nav__item{
+    padding: 25px;
     text-transform: uppercase;
     font-size: 12px;
 }
 
-main
-{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-}
-
-.main-image
-{
+.main-image{
     padding-top: 60px;
-    width: 100%;
 }
 
-.post
-{
+.post{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-
     width: 60%;
-   
-    margin-top: 34px;
+    margin-top: 35px;
     margin-left: 20%; 
-   
     border-style:solid;
     border-width: 1px;
     border-color:lightgrey;
 }
 
-.post-pic
-{    
+.post-pic{  
     width: 50%;
-    height: 100%;
     padding: 0;
-    
 }
 
-.post-info
-{
+.post-info{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     width: 50%;
     height: 100%;
-    padding: 2% 3% 2% 3%;
+    padding: 30px 45px 40px 50px;
 }
 
-.post-info-header
-{
+.post-info-header{
     font-weight: 500;
     font-size: 14px;
-
     display: inline-flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
 }
 
-.post-info-header__author
-{
+.post-info-header__author{
    
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    margin-left: 12px;
+    margin-left: 15px;
 }
 
-.post-info-name
-{
+.post-info-name{
     font-weight: 500;
-    font-size: 22px;
+    font-size: 1.2rem;
     text-transform: uppercase;
     margin: 0;
     margin-top: 3px;
 
 }
 
-.post-info-preview
-{
+.post-info-preview{
     font-weight: 300;
     font-size: 12px;
     padding: 0px 0px 20px 0px;
     border-bottom : 1px solid lightgrey;
-   
 }
 
-.post-info-stat__com
-{
-    margin-left: 20px;
-    margin-right: 90px;
+.post-info-stat{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
-.post-info-stat__btn
-{
-    height: 30px;
+
+.post-info-stat__btn{
+    height: 20px;
     padding: 5px;
     color: lightsalmon;
     background-color: white;
@@ -131,8 +112,7 @@ main
     border: none;
 }
 
-.all-posts-btn
-{
+.all-posts-btn{
     background-color: black; 
     border-width: 0; 
     width:28%; 
@@ -143,106 +123,110 @@ main
     margin-bottom: 40px;
 }
 
-.gallery
-{
+.gallery{
     margin-left: 20%; 
     width : 60%; 
     margin-bottom: 10%;
 }
 
-.gallery-title
-{
+.gallery-title{
     font-size: 15px;
     text-transform: uppercase;
 }
 
-.gallery__pic
-{
+.gallery__pic{
     display: inline-flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
     width: 24%;
-
 }
 
-.footer 
-{
+.footer {
     background-color: black;
     height: 250px; 
     padding: 25px;
 }
 
-.footer-title
-{
+.footer-title{
     font-size: 20px;
     color: white;
     text-transform: uppercase;
 }
 
-.footer-box
-{
+.footer-box{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 25px;
-    
+    margin-top: 25px;  
 }
 
-#footer-contacts__facebook-item, #footer-contacts__twitter-item, #footer-contacts__pinterest-item, #footer-contacts__instagram-item
-{
+#footer-contacts__facebook-item, #footer-contacts__twitter-item, 
+#footer-contacts__pinterest-item, #footer-contacts__instagram-item{
     color: white;
-    margin: 5px;
+    margin: 10px;
 }
 
-#footer-contacts__facebook-item:hover 
-{
+#footer-contacts__facebook-item:hover{
     color: lightseagreen;
 }
 
-#footer-contacts__twitter-item:hover 
-{
+#footer-contacts__twitter-item:hover{
     color: lightblue;
 }
 
-#footer-contacts__pinterest-item:hover 
-{
+#footer-contacts__pinterest-item:hover{
     color: lightcoral;
 }
 
-#footer-contacts__instagram-item:hover 
-{
+#footer-contacts__instagram-item:hover{
     color: palevioletred;
 }
 
-.footer-subs__input
-{
+.footer-subs__input{
     background-color: black;
     color:white; 
     border-color: white;
-    margin-left:10%;  
-    padding: 5%; 
+    margin-left:30px;  
+    padding: 5px; 
     height: 10px;
     border-width: 1px;
+    width: 190px;
 }
 
-.footer-subs__button
-{
+.footer-subs__button{
     background-color:black; 
     color: white; 
     border-width: 1px; 
     border-color: white; 
-    margin-left: 10%; 
+    margin-left: 30px; 
     margin-top: 5%; 
-    padding: 5%; 
-    width:100%;
+    padding: 5px; 
+    width:200px;
 }
 
-.footer-copyright
-{
+.footer-copyright{
     font-size: 15px;
     color: white;
 }
 
+@media (max-width: 1100px){
+    .post{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 60%;
+    }
+
+    .post-pic{
+        width: 100%;
+        height: auto;
+    }
+
+    .post-info{
+        width: auto;
+        align-self: center;
+    }
+}
