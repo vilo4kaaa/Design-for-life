@@ -7,6 +7,7 @@ main{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    
 }
 
 a{
@@ -42,10 +43,11 @@ a{
     width: 60%;
     height: 100%;
     margin-top: 35px;
-    margin-left: 280px; 
     border-style:solid;
     border-width: 1px;
     border-color:lightgrey;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .post-pic{  
@@ -57,7 +59,6 @@ a{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-   
     width: 50%;
     padding: 30px 45px 20px 50px;
 }
@@ -120,7 +121,9 @@ a{
     border-width: 0; 
     width:30%; 
     height: 50px; 
-    margin-left: 480px;
+    position: -webkit-sticky;
+    position: relative;
+    left: 35%;
     color: white; 
     margin-top: 60px; 
     margin-bottom: 40px;
@@ -187,8 +190,10 @@ a{
     transform: translateY(-40%);
 }
 
-#footer-contacts__facebook-item, #footer-contacts__twitter-item, 
-#footer-contacts__pinterest-item, #footer-contacts__instagram-item{
+#footer-contacts__facebook-item, 
+#footer-contacts__twitter-item, 
+#footer-contacts__pinterest-item, 
+#footer-contacts__instagram-item{
     color: white;
     margin: 10px;
 }
@@ -241,8 +246,6 @@ a{
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
-        width: 60%;
-        margin-left: 205px;
     }
 
     .post-pic{
@@ -253,9 +256,5 @@ a{
     .post-info{
         width: auto;
         align-self: center;
-    }
-
-    .all-posts-btn{
-        margin-left: 360px;
     }
 }
