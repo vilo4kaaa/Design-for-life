@@ -41,6 +41,7 @@ a{
     flex-direction: row;
     flex-wrap: nowrap;
     width: 60%;
+    height: 100%;
     margin-top: 35px;
     margin-left: 20%; 
     border-style:solid;
@@ -57,9 +58,9 @@ a{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+   
     width: 50%;
-    height: 100%;
-    padding: 30px 45px 40px 50px;
+    padding: 30px 45px 20px 50px;
 }
 
 .post-info-header{
@@ -89,10 +90,12 @@ a{
 }
 
 .post-info-preview{
+    flex-basis:95%;
     font-weight: 300;
     font-size: 12px;
-    padding: 0px 0px 20px 0px;
+    padding: 0px 0px 60px 0px;
     border-bottom : 1px solid lightgrey;
+   
 }
 
 .post-info-stat{
@@ -100,6 +103,7 @@ a{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
+    margin-bottom: 0;
 }
 
 
@@ -163,14 +167,29 @@ a{
     margin-top: 25px;  
 }
 
-.footer-copyright :before
-{
+.footer-subs ::before{
     content: " ";
     background: rgb(255, 255, 255);
     width: 2px;
-    height: 35px;
-    float: left;
-    margin-right:  10px;
+    height: 80px;
+   
+    position: absolute;
+    left: 37%;
+    transform: translateY(-40%);
+}
+   
+
+.footer-subs ::after{
+    content: " ";
+    background: rgb(255, 255, 255);
+    width: 2px;
+    height: 80px;
+   
+    position: absolute;
+    left: 65%;
+    transform: translateY(-40%);
+    
+   
 }
 
 #footer-contacts__facebook-item, #footer-contacts__twitter-item, 
