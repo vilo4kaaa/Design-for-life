@@ -163,6 +163,16 @@ a{
     margin-top: 25px;  
 }
 
+.footer-copyright :before
+{
+    content: " ";
+    background: rgb(255, 255, 255);
+    width: 2px;
+    height: 35px;
+    float: left;
+    margin-right:  10px;
+}
+
 #footer-contacts__facebook-item, #footer-contacts__twitter-item, 
 #footer-contacts__pinterest-item, #footer-contacts__instagram-item{
     color: white;
