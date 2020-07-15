@@ -1,0 +1,257 @@
+body{
+    margin:0;
+    font-family: Raleway;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.header-nav{
+    background-color: white;
+    position: fixed;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 60px;
+    width:100%; 
+}
+
+.header-nav__item{
+    padding: 25px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.main-image{
+    padding-top: 60px;
+}
+
+.post{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 60%;
+    height: 100%;
+    margin-top: 35px;
+    border-style:solid;
+    border-width: 1px;
+    border-color:lightgrey;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-pic{  
+    width: 50%;
+    padding: 0;
+}
+
+.post-info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 50%;
+    padding: 30px 45px 20px 50px;
+}
+
+.post-info-header{
+    font-weight: 500;
+    font-size: 14px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.post-info-header__author{
+   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 15px;
+}
+
+.post-info-name{
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 5px;
+
+}
+
+.post-info-preview{
+    flex-basis:80%;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 0px 0px 20px 0px;
+    border-bottom : 1px solid lightgrey;
+   
+}
+
+.post-info-stat{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+
+.post-info-stat__btn{
+    height: 20px;
+    padding: 5px;
+    color: lightsalmon;
+    background-color: white;
+    font-size: 20px;
+    border: none;
+}
+
+.all-posts-btn{
+    background-color: black; 
+    border-width: 0; 
+    width:30%; 
+    height: 50px; 
+    position: relative;
+    left: 35%;
+    color: white; 
+    margin-top: 60px; 
+    margin-bottom: 40px;
+}
+
+.gallery{
+    width : 60%; 
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-title{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.gallery__pic{
+    width: 20%;
+    margin: 0 2% 0 2%;
+}
+
+.footer {
+    background-color: black;
+    height: 250px; 
+    padding: 25px;
+}
+
+.footer-title{
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;  
+}
+
+.footer-subs ::before{
+    content: " ";
+    background: rgb(255, 255, 255);
+    width: 2px;
+    height: 80px;
+    position: absolute;
+    left: 35%;
+    transform: translateY(-40%);
+}
+   
+
+.footer-subs ::after{
+    content: " ";
+    background: rgb(255, 255, 255);
+    width: 2px;
+    height: 80px;
+    position: absolute;
+    left: 65%;
+    transform: translateY(-40%);
+}
+
+#footer-contacts__facebook-item, 
+#footer-contacts__twitter-item, 
+#footer-contacts__pinterest-item, 
+#footer-contacts__instagram-item{
+    color: white;
+    margin: 10px;
+}
+
+#footer-contacts__facebook-item:hover{
+    color: lightseagreen;
+}
+
+#footer-contacts__twitter-item:hover{
+    color: lightblue;
+}
+
+#footer-contacts__pinterest-item:hover{
+    color: lightcoral;
+}
+
+#footer-contacts__instagram-item:hover{
+    color: palevioletred;
+}
+
+.footer-subs__input{
+    background-color: black;
+    color:white; 
+    border-color: white;
+    margin-left:30px;  
+    padding: 5px; 
+    height: 10px;
+    border-width: 1px;
+    width: 190px;
+}
+
+.footer-subs__button{
+    background-color:black; 
+    color: white; 
+    border-width: 1px; 
+    border-color: white; 
+    margin-left: 30px; 
+    margin-top: 10px; 
+    padding: 5px; 
+    width:200px;
+}
+
+.footer-copyright{
+    font-size: 15px;
+    color: white;
+}
+
+@media (max-width: 1100px){
+    .post{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .post-pic{
+        width: 100%;
+        height: auto;
+    }
+
+    .post-info{
+        width: auto;
+        align-self: center;
+    }
+}
